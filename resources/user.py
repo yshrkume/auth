@@ -88,4 +88,4 @@ class UserProfile(Resource):
         user = User.query.filter_by(id=current_user["id"]).first()
         if not user:
             return {"message": "User not found"}, 404
-        return {"username": user.username, "email": user.email}, 200
+        return {"user_id": user.id, "username": user.username, "email": user.email}, 200

@@ -107,7 +107,7 @@ To request data from the microservice, you need to use the following endpoints:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/auth.git
+    git clone https://github.com/yshrkume/auth.git
     cd auth
     ```
 2. Install dependencies:
