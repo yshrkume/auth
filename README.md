@@ -2,6 +2,11 @@
 
 This repository contains the authentication microservice implemented using Flask and JWT.
 
+## Requirements
+
+- Python
+- SQLite
+
 ## Instructions
 
 ### How to Programmatically Request Data
@@ -93,7 +98,7 @@ To request data from the microservice, you need to use the following endpoints:
 
 1. Teammate: I implemented “Microservice A” for Joonbum Kang.
 2. Current Status: The microservice is fully implemented and tested.
-3. Access: My teammate can access the microservice by cloning this GitHub repository and running the code locally. Instructions for running the service are provided below.
+3. Access: My teammate can access the microservice by cloning this GitHub repository and running the code locally.
 4. Availability: If there are any issues accessing or calling the microservice, please contact me via Discord.
 5. Notification: If my teammate cannot access/call the microservice, they should notify me as soon as possible.
 6. Additional Information: Integration example code with Flask application will be added later.
