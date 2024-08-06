@@ -8,7 +8,7 @@ This repository contains the authentication microservice implemented using Flask
 
 To request data from the microservice, you need to use the following endpoints:
 
-- **Register User**: `POST /register`
+- Register User: `POST /register`
     - Request body:
       ```json
       {
@@ -24,7 +24,7 @@ To request data from the microservice, you need to use the following endpoints:
       }
       ```
 
-- **Login User**: `POST /login`
+- Login User: `POST /login`
     - Request body:
       ```json
       {
@@ -39,7 +39,7 @@ To request data from the microservice, you need to use the following endpoints:
       }
       ```
 
-- **Update User**: `PUT /update`
+- Update User: `PUT /update`
     - Request header:
       ```plaintext
       Authorization: Bearer your_access_token
@@ -60,7 +60,7 @@ To request data from the microservice, you need to use the following endpoints:
         "message": "User information updated successfully"
       }
       ```
-- **Get User Information**: `GET /profile`
+- Get User Information: `GET /profile`
     - Request header:
       ```plaintext
       Authorization: Bearer your_access_token
@@ -73,7 +73,7 @@ To request data from the microservice, you need to use the following endpoints:
         "email": "your_email"
       }
       ```
-- **Delete User**: `DELETE /delete`
+- Delete User: `DELETE /delete`
     - Request header:
       ```plaintext
       Authorization: Bearer your_access_token
@@ -87,16 +87,16 @@ To request data from the microservice, you need to use the following endpoints:
 
 ### UML Sequence Diagram
 
-
+![UML Sequence Diagram](uml_sequence_diagram.png)
 
 ### Mitigation Plan
 
-1. **Teammate**: I implemented “Microservice A” for Joonbum Kang.
-2. **Current Status**: The microservice is fully implemented and tested.
-3. **Access**: My teammate can access the microservice by cloning this GitHub repository and running the code locally. Instructions for running the service are provided below.
-4. **Availability**: If there are any issues accessing or calling the microservice, please contact me via Discord.
-5. **Notification**: If my teammate cannot access/call the microservice, they should notify me as soon as possible, but no later than 2 days before the deadline.
-6. **Additional Information**: Integration example code with Flask application will be added later.
+1. Teammate: I implemented “Microservice A” for Joonbum Kang.
+2. Current Status: The microservice is fully implemented and tested.
+3. Access: My teammate can access the microservice by cloning this GitHub repository and running the code locally. Instructions for running the service are provided below.
+4. Availability: If there are any issues accessing or calling the microservice, please contact me via Discord.
+5. Notification: If my teammate cannot access/call the microservice, they should notify me as soon as possible.
+6. Additional Information: Integration example code with Flask application will be added later.
 
 ## Running the Service
 
@@ -113,4 +113,4 @@ To request data from the microservice, you need to use the following endpoints:
     ```bash
     flask run
     ```
-4. The service will be available at http://localhost:5000.
+4. The service will be available at http://127.0.0.1:5000.
